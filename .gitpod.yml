@@ -1,3 +1,3 @@
 tasks:
   - init: pip install -r requirements.txt
-    command: export PYTHONPATH=/workspace/miniDDDPython/src
+    command: export PYTHONPATH=/workspace/bookingDomain/src:/workspace/bookingDomain/test
