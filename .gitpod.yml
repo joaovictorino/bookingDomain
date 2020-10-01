@@ -2,4 +2,4 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - init: pip install -r requirements.txt
-    command: export PYTHONPATH=/workspace/bookingDomain/src
+    command: export PYTHONPATH=/workspace/bookingDomain/src:/workspace/bookingDomain/test
